@@ -1,0 +1,12 @@
+[out:xml][timeout:60];
+(
+  node["amenity"="hunting_stand"]({{bbox}});
+  way["amenity"="hunting_stand"]({{bbox}});
+  relation["amenity"="hunting_stand"]({{bbox}});
+  node["shop"="hunting"]({{bbox}});
+  way["shop"="hunting"]({{bbox}});
+  relation["shop"="hunting"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
